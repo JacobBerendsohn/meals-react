@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        
+        <Route to='/' element={<Search />} />
+        <Route to='/favorites' element={<Favorites />} />
+
       </Routes>
       {/* <Search /> */}
       {/* <Favorites /> */}
